@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Duru+Sans);
+@import "/assets/css/normalize.css";
 
 * {
   margin: 0px;
