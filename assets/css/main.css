@@ -37,6 +37,7 @@ p {
 
 .argumenta-logo {
   background: white;
+  color: #000;
   margin: auto;
   position: relative;
   height: 1.333em;
@@ -79,7 +80,8 @@ p {
   background: #222;
 }
 
-.content {
+.site-header,
+.site-footer {
   color: #fff;
   text-align: center;
   font-family: "Duru Sans";
