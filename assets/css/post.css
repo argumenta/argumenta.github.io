@@ -1,0 +1,27 @@
+
+.post {
+  width: 35em;
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Noto Serif", serif;
+  font-size: 17px;
+  line-height: 1.6em;
+  background: #fff;
+  color: #333;
+}
+
+.post-header {
+  font-family: "Monda";
+}
+
+.post-meta {
+  color: #aaa;
+}
+
+.post-title {
+  margin-top: 0.1em;
+  font-weight: bold;
+  color: #444;
+}

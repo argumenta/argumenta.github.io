@@ -1,6 +1,7 @@
 
-@import url(https://fonts.googleapis.com/css?family=Duru+Sans);
+@import url(https://fonts.googleapis.com/css?family=Monda|Duru+Sans|Noto+Serif);
 @import "/assets/css/normalize.css";
+@import "/assets/css/post.css";
 
 * {
   margin: 0px;
@@ -17,8 +18,24 @@ body {
   font: normal 16px "Duru Sans";
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+  font-family: "Monda";
+  font-weight: normal;
+  color: #444;
+}
+
+h1 {
+  font-size: 24px;
+}
+
 p {
   margin: 1em 0px;
+}
+
+ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
 }
 
 .radial-gradient {
@@ -33,7 +50,7 @@ p {
 }
 
 .logo-container {
-  margin: 8% auto;
+  margin: 10px auto;
 }
 
 .argumenta-logo {
@@ -89,9 +106,17 @@ p {
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-  font-weight: normal;
-  font-size: 24px;
+.content {
+}
+
+.content a {
+  color: #333;
+  transition: color 0.4s ease;
+}
+
+.content a:hover {
+  color: #08f;
+  transition: color 0.4s ease;
 }
 
 .social-links a {

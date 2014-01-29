@@ -1,3 +1,4 @@
 name: Argumenta Blog
 description: ""
+paginate: 10
 excerpt_separator: "<!--More-->"
