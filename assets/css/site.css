@@ -1,0 +1,123 @@
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a, a:visited {
+  color: #2ef;
+}
+
+body {
+  font: normal 16px "Duru Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+  font-family: "Monda";
+  font-weight: normal;
+  color: #444;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  margin: 1em 0px;
+}
+
+ul {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.radial-gradient {
+  background-color: #000;
+  background-image: -webkit-gradient(radial, top, bottom, from(hsl(200, 30%, 60%)), to(#000));
+  background-image: -webkit-radial-gradient(top, hsl(200, 30%, 60%), #000);
+  background-image:    -moz-radial-gradient(top, hsl(200, 30%, 60%), #000);
+  background-image:      -o-radial-gradient(top, hsl(200, 30%, 60%), #000);
+  background-image:         radial-gradient(top, hsl(200, 30%, 60%), #000);
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
+.logo-container {
+  margin: 10px auto;
+}
+
+.argumenta-logo {
+  background: white;
+  color: #000;
+  margin: auto;
+  position: relative;
+  height: 1.333em;
+  width: 1.333em;
+  font-size: 75px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 9px #333;
+}
+
+.initial-container {
+  position: absolute;
+  font-family: "Duru Sans";
+  text-shadow: 0px 0px 5px #888;
+  text-align: center;
+  width: 100%;
+}
+
+.first-initial {
+  margin: auto;
+}
+
+.tag {
+  position: absolute;
+  bottom: 0px;
+  height: 8%;
+  width: 33.34%;
+}
+
+.support {
+  background: #0f5;
+}
+
+.dispute {
+  left: 33.33%;
+  background: #f08;
+}
+
+.citation {
+  right: 0%;
+  background: #222;
+}
+
+.site-header,
+.site-footer {
+  color: #fff;
+  text-align: center;
+  font-family: "Duru Sans";
+  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  width: 640px;
+  max-width: 80%;
+  margin: 0px auto;
+}
+
+.content a {
+  color: #333;
+  transition: color 0.4s ease;
+}
+
+.content a:hover {
+  color: #08f;
+  transition: color 0.4s ease;
+}
+
+.social-links a {
+  margin: 0px 10px;
+}
