@@ -3,3 +3,4 @@ description: ""
 paginate: 10
 permalink: pretty
 excerpt_separator: "<!--More-->"
+mode: "production" # "development"
