@@ -2,5 +2,6 @@ name: Argumenta Blog
 description: ""
 paginate: 10
 permalink: pretty
+highlighter: pygments
 excerpt_separator: "<!--More-->"
 mode: "production" # "development"
