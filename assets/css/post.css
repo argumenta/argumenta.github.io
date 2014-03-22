@@ -39,7 +39,9 @@
   color: #666;
 }
 
-.post code {
+.post code,
+.post pre {
+  line-height: 1.5em;
   font-size: 14px;
 }
 
