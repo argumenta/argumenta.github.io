@@ -1,6 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Monda|Duru+Sans|Noto+Serif);
 @import "/assets/css/normalize.css";
+@import "/assets/css/syntax.css";
 @import "/assets/css/site.css";
 @import "/assets/css/pagination.css";
 @import "/assets/css/post.css";
