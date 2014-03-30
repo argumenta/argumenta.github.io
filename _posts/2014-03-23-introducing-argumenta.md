@@ -104,14 +104,9 @@ toggle its contents, and click any proposition to reveal its tags. By
 doing so, you can "drill-down" into the reasoning for or against any
 item.
 
-Also, the Proposition widget provides an "Add Tag" button for creating
-new support, dispute, and citation tags; while the Argument widget
-provides "Discuss" and "Show Discussions" links for contributing to
-the discussion and analysis around each argument.
-
-When an argument is displayed in the browser, its SHA-1 and other
+When an argument is displayed in the browser, its repo, SHA-1, and other
 object data is passed to an Argument widget by HTML5 data attributes
-(or API queries, if necessary), which renders the Argument.
+(or API queries, if necessary), which renders the argument.
 
 Here's the minimal code for embedding our example argument:
 
