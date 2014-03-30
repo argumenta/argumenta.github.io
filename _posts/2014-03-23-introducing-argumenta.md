@@ -9,7 +9,6 @@ open alpha. Since then, a few people have expressed interest in
 learning more about its background and design. I've been meaning to
 write an introductory post for a while, so now seems like a good time!
 
-<!-- What is it? -->
 ## Social Argument Collaboration
 
 [Argumenta.io][Argumenta.io] is a new site for social argument
@@ -38,7 +37,6 @@ Here's the essentials:
 + Citation tags link propositions with any external resource (text, video, URLs).
 + Discussions allow for friendly analysis of each argument as a whole.
 
-<!-- What can you use it for? -->
 ## Argument Publishing
 
 As an environment focused on crafting arguments of high quality,
@@ -86,7 +84,6 @@ their own record, commit, and SHA-1.
 </a>
 <div class="post-caption">Object Records</div>
 
-<!-- Definition, Types, Embedding, Data, Example, Interaction -->
 ## Argumenta Widgets
 
 [Argumenta Widgets][Argumenta-Widgets] is a collection of components
@@ -123,11 +120,6 @@ Here's the minimal code for embedding our example argument:
 <script src="https://argumenta.io/widgets.js"></script>
 {% endhighlight %}
 
-<!--
-  RESTful, JSON, JSONP, Docs, Resources,
-  Read Access, Publishing, Cookie-based Auth,
-  Widgets and Applications
--->
 ## Argumenta API
 
 The [Argumenta API][Argumenta-API] provides a RESTful interface to
@@ -139,7 +131,6 @@ sessions allow account creation, login, and publishing.  It's used by
 Argumenta widgets, whether embedded on Argumenta.io or other sites,
 and can be used by third-party applications.
 
-<!-- What are its advantages and unique features? -->
 ## Public and Open Source
 
 Argumenta is built upon an open source web application available for
@@ -147,7 +138,6 @@ anyone to run and modify, with both server-side ([Argumenta][Argumenta]) and
 client-side ([Argumenta Widgets][Argumenta-Widgets]) components. It's
 released under the MIT license.
 
-<!-- How can I join the community and help the project? -->
 ## Get Involved!
 
 We'd love to have you join the Argumenta community!
