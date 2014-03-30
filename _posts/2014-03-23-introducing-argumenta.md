@@ -4,10 +4,11 @@ layout: post
 
 ## Open Alpha
 
-A little bit ago, [Argumenta.io][Argumenta.io] was launched as an
-open alpha. Since then, a few people have expressed interest in
-learning more about its background and design. I've been meaning to
-write an introductory post for a while, so now seems like a good time!
+A little bit ago, [Argumenta.io][Argumenta.io] was launched as an open
+alpha. Since then, a few people have expressed interest in learning more
+about both its background and the design of [Argumenta][Argumenta], the
+software behind it. I've been meaning to write an introductory post for a
+while, so now seems like a good time!
 
 ## Social Argument Collaboration
 
@@ -20,7 +21,7 @@ share both similar and differing perspectives.
   <img class="post-image" src="/assets/images/Argumenta-0.1.4-cropped.png">
 </a>
 <div class="post-caption">
-  The argumenta.io home page
+  The home page for Argumenta.io
   (<a href="https://argumenta.io">https://argumenta.io</a>)
 </div>
 
