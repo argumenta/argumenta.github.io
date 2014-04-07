@@ -17,8 +17,8 @@ collaboration.  Our goal is to provide a place for people to focus on
 building better arguments online, while connecting with others who
 share both similar and differing perspectives.
 
-<a href="/assets/images/Argumenta-0.1.4-cropped.png">
-  <img class="post-image" src="/assets/images/Argumenta-0.1.4-cropped.png">
+<a href="/assets/images/Argumenta-0.1.4.png">
+  <img class="post-image" src="/assets/images/Argumenta-0.1.4.png">
 </a>
 <div class="post-caption">
   The home page for Argumenta.io
