@@ -85,6 +85,12 @@ their own record, commit, and SHA-1.
 </a>
 <div class="post-caption">Object Records</div>
 
+The above diagram illustrates Argumenta's object record format, which
+is very much inspired by Git. Since we're still in alpha, it's
+conceivable that the format may change slightly in the future &ndash; but we
+do aim for stability, making any changes backwards-compatible when
+possible. See the [code][Argument-Records] for more details!
+
 ## Argumenta Widgets
 
 [Argumenta Widgets][Argumenta-Widgets] is a collection of components
@@ -150,3 +156,4 @@ CoffeeScript for Node.js, and the widgets are pure JavaScript.
 [Argumenta.io]: https://argumenta.io
 [Argumenta-Widgets]: https://github.com/argumenta/argumenta-widgets
 [Argumenta-API]: https://github.com/argumenta/argumenta/blob/master/doc/README.API.markdown
+[Argument-Records]: https://github.com/argumenta/argumenta/blob/master/lib/argumenta/objects/argument.coffee#L72-L102
