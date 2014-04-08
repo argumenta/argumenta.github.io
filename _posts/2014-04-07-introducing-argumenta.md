@@ -1,5 +1,7 @@
 ---
 layout: post
+author: Tyler Florez
+twitter: qualiabyte
 ---
 
 ## Open Alpha
