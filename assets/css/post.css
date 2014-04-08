@@ -19,9 +19,20 @@
 }
 
 .post-title {
-  margin-top: 0.1em;
+  margin: 0em 0 0.2em 0;
   font-weight: bold;
   color: #444;
+}
+
+.post-byline {
+  color: #888;
+}
+
+.post-author {
+}
+
+.post-twitter {
+  margin-left: 0.2em;
 }
 
 .post-image {
