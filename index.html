@@ -11,6 +11,12 @@ layout: default
         <time datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
       </div>
       <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="post-byline">
+        <span class="post-author">{{ post.author }}</span>
+        {% if post.twitter %}
+        ☙ <span class="post-twitter"><a href="https://twitter.com/{{ post.twitter }}">@{{ post.twitter }}</a></span>
+        {% endif %}
+      </div>
     </header>
     <section class="post-excerpt">
       {{ post.excerpt }}

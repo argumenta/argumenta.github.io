@@ -10,6 +10,12 @@ layout: default
         <time datetime="{{ page.date | date_to_string }}">{{ page.date | date_to_string }}</time>
       </div>
       <h2 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+      <div class="post-byline">
+        <span class="post-author">{{ page.author }}</span>
+        {% if page.twitter %}
+        ☙ <span class="post-twitter"><a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a></span>
+        {% endif %}
+      </div>
     </header>
     <section class="post-content">
       {{ content }}
