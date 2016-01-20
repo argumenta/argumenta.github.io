@@ -103,8 +103,10 @@ and you can embed them on any site supporting HTML5!
 
 Here's an example Argument widget:
 
-<div class="argument-widget" data-repo="qualiabyte/the-value-of-bitcoin-for-the-99%">
-</div>
+<a href="/assets/images/argument-widget.png">
+  <img class="post-image" src="/assets/images/argument-widget.png">
+</a>
+<div class="post-caption">Argument Widget</div>
 
 The Argument widget is quite interactive, and showcases the other
 widgets as subcomponents. You can click on an argument's top panel to
