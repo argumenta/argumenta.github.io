@@ -104,7 +104,7 @@ and you can embed them on any site supporting HTML5!
 Here's an example Argument widget:
 
 <a href="/assets/images/argument-widget.png">
-  <img class="post-image" src="/assets/images/argument-widget.png">
+  <img class="post-image" src="/assets/images/argument-widget.png" style="width: auto;">
 </a>
 <div class="post-caption">Argument Widget</div>
 
